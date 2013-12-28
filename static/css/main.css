@@ -235,6 +235,13 @@ nav li {
     display: inline;
     padding-left: 15px;
 }
+ul.inline {
+    padding-left: 0;
+}
+ul.inline li {
+    list-style: none;
+    display: inline;
+}
 section {
     padding: 15px 0;
     clear: both;
@@ -257,8 +264,18 @@ section {
     float: right;
     height: 200px;
 }
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
 .content {
     padding: 30px;
+}
+.content.pad-thin {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .no-pad {
     padding: 0;
