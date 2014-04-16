@@ -235,9 +235,6 @@ nav li {
     display: inline;
     padding-left: 15px;
 }
-ul.inline {
-    padding-left: 0;
-}
 ul.inline li {
     list-style: none;
     display: inline;
