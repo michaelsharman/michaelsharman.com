@@ -280,3 +280,12 @@ section {
 .center {
     text-align: center;
 }
+ul.hyphen li {
+    list-style: none;
+} 
+ul.hyphen {
+    padding-left: 15px;
+}
+ul.hyphen li:before {
+    content: "- ";
+}
