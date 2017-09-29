@@ -115,3 +115,57 @@ ul {
 .center {
     text-align: center;
 }
+.footer-icons img {
+    height: 80px;
+    width: 80px;
+}
+
+@media all and (max-width: 989px) {
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: inherit;
+    }
+    section {
+        padding: 15px 0 0 0;
+    }
+    .hide-on-sm {
+        display: none;
+    }
+    .col-lrg {
+        width: 100%;
+    }
+    .left {
+        float: none;
+        height: inherit;
+    }
+    .right {
+        float: none;
+        height: inherit;
+    }
+    header h1 {
+        float: none;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    nav {
+        height: inherit;
+        display: inherit;
+    }
+    nav ul {
+        float: none;
+    }
+    nav ul li:first-child {
+        padding-left: 0px;
+    }
+    .footer-icons img {
+        width: 75px;
+        height: 75px;
+    }
+}
+@media all and (max-width: 879px) {
+    .footer-icons img {
+        width: 55px;
+        height: 55px;
+    }
+}
