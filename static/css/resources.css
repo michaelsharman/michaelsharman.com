@@ -1,0 +1,8 @@
+.icon-pdf {
+    background:url(../images/pdf.svg) no-repeat left center;
+    padding-left:29px;
+}
+
+.resource li {
+    padding-bottom: 15px;
+}
